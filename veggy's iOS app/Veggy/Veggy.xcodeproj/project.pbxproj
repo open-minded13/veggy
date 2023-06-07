@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C35B3E42A088DD900641099 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8C35B3E32A088DD900641099 /* Alamofire */; };
+		8C4EF0622A209D680061CB4E /* VegTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EF0612A209D680061CB4E /* VegTable.swift */; };
+		8C4EF0642A209F150061CB4E /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EF0632A209F150061CB4E /* WelcomePage.swift */; };
+		8C4EF0682A20A0960061CB4E /* NameAgeTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EF0672A20A0960061CB4E /* NameAgeTextFields.swift */; };
+		8C4EF06D2A20A9BE0061CB4E /* UserInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C4EF06C2A20A9BE0061CB4E /* UserInfo.json */; };
+		8C4EF06F2A20AA0D0061CB4E /* FileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EF06E2A20AA0D0061CB4E /* FileHandler.swift */; };
+		8C4EF0712A20ABCE0061CB4E /* ContentViewIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EF0702A20ABCE0061CB4E /* ContentViewIntentHandler.swift */; };
+		8C4EF0752A20B5CD0061CB4E /* WelcomePageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4EF0742A20B5CD0061CB4E /* WelcomePageManager.swift */; };
+		8C561F1F2A217C72002A6A34 /* RecommendationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C561F1E2A217C72002A6A34 /* RecommendationManager.swift */; };
+		8C561F262A2200CC002A6A34 /* VeggyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C561F252A2200CC002A6A34 /* VeggyTabBar.swift */; };
+		8C65574F2A2C19440040878F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65574E2A2C19440040878F /* Session.swift */; };
+		8C6557512A2C1D520040878F /* VeggyWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6557502A2C1D520040878F /* VeggyWeight.swift */; };
+		8C65578F2A2D56230040878F /* VegetableRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65578E2A2D56230040878F /* VegetableRecognition.swift */; };
+		8C761B042A048830001B05E9 /* ProcessingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C761B032A048830001B05E9 /* ProcessingHeaderView.swift */; };
+		8C761B082A048B2E001B05E9 /* VegProcessListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C761B072A048B2E001B05E9 /* VegProcessListItemView.swift */; };
+		8C761B0A2A04A028001B05E9 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C761B092A04A028001B05E9 /* ProfilePage.swift */; };
+		8C761B0D2A04A2D0001B05E9 /* VeggySessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C761B0C2A04A2D0001B05E9 /* VeggySessionManager.swift */; };
+		8C761B102A062000001B05E9 /* VegChoosingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C761B0F2A062000001B05E9 /* VegChoosingGridView.swift */; };
+		8C761B122A0621A1001B05E9 /* VegProcessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C761B112A0621A1001B05E9 /* VegProcessListView.swift */; };
+		8C761B162A064046001B05E9 /* VeggyResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C761B152A064046001B05E9 /* VeggyResultPage.swift */; };
+		8CA0DDA12A22BAB9008B67E7 /* VeggyMilestoneHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA0DDA02A22BAB9008B67E7 /* VeggyMilestoneHeader.swift */; };
+		8CA0DDA32A22BC0B008B67E7 /* Lato-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CA0DDA22A22BC0B008B67E7 /* Lato-ExtraBold.ttf */; };
+		8CA0DDA52A22BECA008B67E7 /* RedeemRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA0DDA42A22BECA008B67E7 /* RedeemRewardsView.swift */; };
+		8CA0DDA72A22BF94008B67E7 /* RewardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA0DDA62A22BF94008B67E7 /* RewardWidget.swift */; };
+		8CA0DDA92A22C906008B67E7 /* RewardWidgetsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA0DDA82A22C906008B67E7 /* RewardWidgetsList.swift */; };
+		8CA0DDAC2A22CC34008B67E7 /* ExtraPointWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA0DDAB2A22CC34008B67E7 /* ExtraPointWidget.swift */; };
+		8CA0DDAE2A22CD41008B67E7 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CA0DDAD2A22CD41008B67E7 /* Lato-Semibold.ttf */; };
+		8CBB729A2A01F2890050BBD6 /* VeggyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72992A01F2890050BBD6 /* VeggyApp.swift */; };
+		8CBB729C2A01F2890050BBD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB729B2A01F2890050BBD6 /* ContentView.swift */; };
+		8CBB729E2A01F2890050BBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB729D2A01F2890050BBD6 /* Assets.xcassets */; };
+		8CBB72A12A01F2890050BBD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72A02A01F2890050BBD6 /* Preview Assets.xcassets */; };
+		8CBB72A82A01F2A40050BBD6 /* VeggyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72A72A01F2A40050BBD6 /* VeggyPage.swift */; };
+		8CBB72AA2A01F2BD0050BBD6 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72A92A01F2BD0050BBD6 /* HomePage.swift */; };
+		8CBB72AD2A01F6BD0050BBD6 /* ChoosingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72AC2A01F6BD0050BBD6 /* ChoosingHeaderView.swift */; };
+		8CBB72B12A01F7C10050BBD6 /* VegChoosingGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72B02A01F7C10050BBD6 /* VegChoosingGridItemView.swift */; };
+		8CBB72B32A01F7E20050BBD6 /* VegChoosingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72B22A01F7E20050BBD6 /* VegChoosingView.swift */; };
+		8CBB72BE2A01F9740050BBD6 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72B72A01F9740050BBD6 /* Montserrat-Medium.ttf */; };
+		8CBB72BF2A01F9740050BBD6 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72B82A01F9740050BBD6 /* Lato-Bold.ttf */; };
+		8CBB72C02A01F9740050BBD6 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72B92A01F9740050BBD6 /* Montserrat-ExtraBold.ttf */; };
+		8CBB72C12A01F9740050BBD6 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72BA2A01F9740050BBD6 /* Lato-Black.ttf */; };
+		8CBB72C22A01F9740050BBD6 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72BB2A01F9740050BBD6 /* Montserrat-Regular.ttf */; };
+		8CBB72C32A01F9740050BBD6 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72BC2A01F9740050BBD6 /* Lato-Regular.ttf */; };
+		8CBB72C42A01F9740050BBD6 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72BD2A01F9740050BBD6 /* Montserrat-SemiBold.ttf */; };
+		8CBB72C72A01FAD30050BBD6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72C62A01FAD30050BBD6 /* Color.swift */; };
+		8CBB72C92A023C7B0050BBD6 /* VeggyVegetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBB72C82A023C7B0050BBD6 /* VeggyVegetable.swift */; };
+		8CBB72CB2A0268220050BBD6 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CBB72CA2A0268220050BBD6 /* Lato-Medium.ttf */; };
+		8CC980DE2A297FF400C83DD2 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC980DD2A297FF400C83DD2 /* Text.swift */; };
+		8CC980E02A29CECD00C83DD2 /* StartStopMealButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC980DF2A29CECD00C83DD2 /* StartStopMealButton.swift */; };
+		8CC980E22A2A89CE00C83DD2 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC980E12A2A89CE00C83DD2 /* TextField.swift */; };
+		8CC981322A2AAB1900C83DD2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC981312A2AAB1900C83DD2 /* NetworkManager.swift */; };
+		8CC981352A2AACC300C83DD2 /* AgeRecommendations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC981342A2AACC300C83DD2 /* AgeRecommendations.swift */; };
+		8CC981372A2AAEEA00C83DD2 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC981362A2AAEEA00C83DD2 /* NetworkAPI.swift */; };
+		8CC981392A2AC37E00C83DD2 /* VeggyPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC981382A2AC37E00C83DD2 /* VeggyPageViewModel.swift */; };
+		8CC9813F2A2B264E00C83DD2 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC9813E2A2B264E00C83DD2 /* Config.swift */; };
+		8CFD58972A08C0AB00B3E556 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 8CFD58962A08C0AB00B3E556 /* SwiftyJSON */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C4EF0612A209D680061CB4E /* VegTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegTable.swift; sourceTree = "<group>"; };
+		8C4EF0632A209F150061CB4E /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		8C4EF0672A20A0960061CB4E /* NameAgeTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAgeTextFields.swift; sourceTree = "<group>"; };
+		8C4EF06C2A20A9BE0061CB4E /* UserInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserInfo.json; sourceTree = "<group>"; };
+		8C4EF06E2A20AA0D0061CB4E /* FileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHandler.swift; sourceTree = "<group>"; };
+		8C4EF0702A20ABCE0061CB4E /* ContentViewIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewIntentHandler.swift; sourceTree = "<group>"; };
+		8C4EF0742A20B5CD0061CB4E /* WelcomePageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageManager.swift; sourceTree = "<group>"; };
+		8C561F1E2A217C72002A6A34 /* RecommendationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationManager.swift; sourceTree = "<group>"; };
+		8C561F252A2200CC002A6A34 /* VeggyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyTabBar.swift; sourceTree = "<group>"; };
+		8C65574E2A2C19440040878F /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		8C6557502A2C1D520040878F /* VeggyWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyWeight.swift; sourceTree = "<group>"; };
+		8C65578E2A2D56230040878F /* VegetableRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableRecognition.swift; sourceTree = "<group>"; };
+		8C761B032A048830001B05E9 /* ProcessingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingHeaderView.swift; sourceTree = "<group>"; };
+		8C761B072A048B2E001B05E9 /* VegProcessListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegProcessListItemView.swift; sourceTree = "<group>"; };
+		8C761B092A04A028001B05E9 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		8C761B0C2A04A2D0001B05E9 /* VeggySessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggySessionManager.swift; sourceTree = "<group>"; };
+		8C761B0F2A062000001B05E9 /* VegChoosingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegChoosingGridView.swift; sourceTree = "<group>"; };
+		8C761B112A0621A1001B05E9 /* VegProcessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegProcessListView.swift; sourceTree = "<group>"; };
+		8C761B152A064046001B05E9 /* VeggyResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyResultPage.swift; sourceTree = "<group>"; };
+		8CA0DDA02A22BAB9008B67E7 /* VeggyMilestoneHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyMilestoneHeader.swift; sourceTree = "<group>"; };
+		8CA0DDA22A22BC0B008B67E7 /* Lato-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8CA0DDA42A22BECA008B67E7 /* RedeemRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemRewardsView.swift; sourceTree = "<group>"; };
+		8CA0DDA62A22BF94008B67E7 /* RewardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardWidget.swift; sourceTree = "<group>"; };
+		8CA0DDA82A22C906008B67E7 /* RewardWidgetsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardWidgetsList.swift; sourceTree = "<group>"; };
+		8CA0DDAB2A22CC34008B67E7 /* ExtraPointWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraPointWidget.swift; sourceTree = "<group>"; };
+		8CA0DDAD2A22CD41008B67E7 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		8CBB72962A01F2890050BBD6 /* Veggy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veggy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBB72992A01F2890050BBD6 /* VeggyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyApp.swift; sourceTree = "<group>"; };
+		8CBB729B2A01F2890050BBD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CBB729D2A01F2890050BBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CBB72A02A01F2890050BBD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CBB72A72A01F2A40050BBD6 /* VeggyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyPage.swift; sourceTree = "<group>"; };
+		8CBB72A92A01F2BD0050BBD6 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		8CBB72AC2A01F6BD0050BBD6 /* ChoosingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingHeaderView.swift; sourceTree = "<group>"; };
+		8CBB72B02A01F7C10050BBD6 /* VegChoosingGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegChoosingGridItemView.swift; sourceTree = "<group>"; };
+		8CBB72B22A01F7E20050BBD6 /* VegChoosingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegChoosingView.swift; sourceTree = "<group>"; };
+		8CBB72B72A01F9740050BBD6 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		8CBB72B82A01F9740050BBD6 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		8CBB72B92A01F9740050BBD6 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8CBB72BA2A01F9740050BBD6 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		8CBB72BB2A01F9740050BBD6 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		8CBB72BC2A01F9740050BBD6 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		8CBB72BD2A01F9740050BBD6 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		8CBB72C52A01F9930050BBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8CBB72C62A01FAD30050BBD6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8CBB72C82A023C7B0050BBD6 /* VeggyVegetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyVegetable.swift; sourceTree = "<group>"; };
+		8CBB72CA2A0268220050BBD6 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		8CC980DD2A297FF400C83DD2 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		8CC980DF2A29CECD00C83DD2 /* StartStopMealButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartStopMealButton.swift; sourceTree = "<group>"; };
+		8CC980E12A2A89CE00C83DD2 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		8CC981312A2AAB1900C83DD2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8CC981342A2AACC300C83DD2 /* AgeRecommendations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRecommendations.swift; sourceTree = "<group>"; };
+		8CC981362A2AAEEA00C83DD2 /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		8CC981382A2AC37E00C83DD2 /* VeggyPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeggyPageViewModel.swift; sourceTree = "<group>"; };
+		8CC9813E2A2B264E00C83DD2 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CBB72932A01F2890050BBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFD58972A08C0AB00B3E556 /* SwiftyJSON in Frameworks */,
+				8C35B3E42A088DD900641099 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4EF0662A20A0640061CB4E /* WelcomeSheet */ = {
+			isa = PBXGroup;
+			children = (
+				8C4EF0632A209F150061CB4E /* WelcomePage.swift */,
+				8C4EF0672A20A0960061CB4E /* NameAgeTextFields.swift */,
+			);
+			path = WelcomeSheet;
+			sourceTree = "<group>";
+		};
+		8C4EF06B2A20A9200061CB4E /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72B62A01F91D0050BBD6 /* Fonts */,
+				8C4EF06C2A20A9BE0061CB4E /* UserInfo.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		8C561F292A220B05002A6A34 /* LaunchView */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB729B2A01F2890050BBD6 /* ContentView.swift */,
+				8C4EF0662A20A0640061CB4E /* WelcomeSheet */,
+				8C561F252A2200CC002A6A34 /* VeggyTabBar.swift */,
+			);
+			path = LaunchView;
+			sourceTree = "<group>";
+		};
+		8C761B0B2A04A02C001B05E9 /* ProfileTab */ = {
+			isa = PBXGroup;
+			children = (
+				8C761B092A04A028001B05E9 /* ProfilePage.swift */,
+			);
+			path = ProfileTab;
+			sourceTree = "<group>";
+		};
+		8C761B0E2A04A2D4001B05E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C761B0C2A04A2D0001B05E9 /* VeggySessionManager.swift */,
+				8C4EF06E2A20AA0D0061CB4E /* FileHandler.swift */,
+				8C4EF0702A20ABCE0061CB4E /* ContentViewIntentHandler.swift */,
+				8C4EF0742A20B5CD0061CB4E /* WelcomePageManager.swift */,
+				8C561F1E2A217C72002A6A34 /* RecommendationManager.swift */,
+				8CC981382A2AC37E00C83DD2 /* VeggyPageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C761B132A062251001B05E9 /* Choosing */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72B02A01F7C10050BBD6 /* VegChoosingGridItemView.swift */,
+				8C761B0F2A062000001B05E9 /* VegChoosingGridView.swift */,
+				8CBB72B22A01F7E20050BBD6 /* VegChoosingView.swift */,
+				8CC980DF2A29CECD00C83DD2 /* StartStopMealButton.swift */,
+			);
+			path = Choosing;
+			sourceTree = "<group>";
+		};
+		8C761B142A06225B001B05E9 /* Processing */ = {
+			isa = PBXGroup;
+			children = (
+				8C761B072A048B2E001B05E9 /* VegProcessListItemView.swift */,
+				8C761B112A0621A1001B05E9 /* VegProcessListView.swift */,
+			);
+			path = Processing;
+			sourceTree = "<group>";
+		};
+		8CA0DDAA2A22C90A008B67E7 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				8CA0DDA62A22BF94008B67E7 /* RewardWidget.swift */,
+				8CA0DDA82A22C906008B67E7 /* RewardWidgetsList.swift */,
+				8CA0DDAB2A22CC34008B67E7 /* ExtraPointWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		8CBB728D2A01F2880050BBD6 = {
+			isa = PBXGroup;
+			children = (
+				8CBB72982A01F2890050BBD6 /* Veggy */,
+				8CBB72972A01F2890050BBD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CBB72972A01F2890050BBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72962A01F2890050BBD6 /* Veggy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CBB72982A01F2890050BBD6 /* Veggy */ = {
+			isa = PBXGroup;
+			children = (
+				8C4EF06B2A20A9200061CB4E /* Files */,
+				8CBB72C52A01F9930050BBD6 /* Info.plist */,
+				8CBB72992A01F2890050BBD6 /* VeggyApp.swift */,
+				8CBB72CC2A02749D0050BBD6 /* Models */,
+				8CBB72AB2A01F2C70050BBD6 /* Views */,
+				8C761B0E2A04A2D4001B05E9 /* ViewModels */,
+				8CBB729D2A01F2890050BBD6 /* Assets.xcassets */,
+				8CBB729F2A01F2890050BBD6 /* Preview Content */,
+				8CC981332A2AAB1D00C83DD2 /* Network */,
+			);
+			path = Veggy;
+			sourceTree = "<group>";
+		};
+		8CBB729F2A01F2890050BBD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72A02A01F2890050BBD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CBB72AB2A01F2C70050BBD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CC980DC2A297FE300C83DD2 /* Extensions */,
+				8C561F292A220B05002A6A34 /* LaunchView */,
+				8CBB72AF2A01F6DA0050BBD6 /* VeggyTab */,
+				8CBB72AE2A01F6C70050BBD6 /* HomeTab */,
+				8C761B0B2A04A02C001B05E9 /* ProfileTab */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CBB72AE2A01F6C70050BBD6 /* HomeTab */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72A92A01F2BD0050BBD6 /* HomePage.swift */,
+				8CBB72B52A01F8100050BBD6 /* Header */,
+				8CBB72B42A01F7F20050BBD6 /* Vegetables */,
+				8C761B152A064046001B05E9 /* VeggyResultPage.swift */,
+			);
+			path = HomeTab;
+			sourceTree = "<group>";
+		};
+		8CBB72AF2A01F6DA0050BBD6 /* VeggyTab */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72A72A01F2A40050BBD6 /* VeggyPage.swift */,
+				8CA0DDA02A22BAB9008B67E7 /* VeggyMilestoneHeader.swift */,
+				8CA0DDA42A22BECA008B67E7 /* RedeemRewardsView.swift */,
+				8CA0DDAA2A22C90A008B67E7 /* Widget */,
+			);
+			path = VeggyTab;
+			sourceTree = "<group>";
+		};
+		8CBB72B42A01F7F20050BBD6 /* Vegetables */ = {
+			isa = PBXGroup;
+			children = (
+				8C761B132A062251001B05E9 /* Choosing */,
+				8C761B142A06225B001B05E9 /* Processing */,
+			);
+			path = Vegetables;
+			sourceTree = "<group>";
+		};
+		8CBB72B52A01F8100050BBD6 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72AC2A01F6BD0050BBD6 /* ChoosingHeaderView.swift */,
+				8C761B032A048830001B05E9 /* ProcessingHeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		8CBB72B62A01F91D0050BBD6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72BA2A01F9740050BBD6 /* Lato-Black.ttf */,
+				8CBB72B82A01F9740050BBD6 /* Lato-Bold.ttf */,
+				8CA0DDA22A22BC0B008B67E7 /* Lato-ExtraBold.ttf */,
+				8CBB72CA2A0268220050BBD6 /* Lato-Medium.ttf */,
+				8CBB72BC2A01F9740050BBD6 /* Lato-Regular.ttf */,
+				8CA0DDAD2A22CD41008B67E7 /* Lato-Semibold.ttf */,
+				8CBB72B92A01F9740050BBD6 /* Montserrat-ExtraBold.ttf */,
+				8CBB72B72A01F9740050BBD6 /* Montserrat-Medium.ttf */,
+				8CBB72BB2A01F9740050BBD6 /* Montserrat-Regular.ttf */,
+				8CBB72BD2A01F9740050BBD6 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8CBB72CC2A02749D0050BBD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72C82A023C7B0050BBD6 /* VeggyVegetable.swift */,
+				8C4EF0612A209D680061CB4E /* VegTable.swift */,
+				8CC981342A2AACC300C83DD2 /* AgeRecommendations.swift */,
+				8CC9813E2A2B264E00C83DD2 /* Config.swift */,
+				8C65574E2A2C19440040878F /* Session.swift */,
+				8C6557502A2C1D520040878F /* VeggyWeight.swift */,
+				8C65578E2A2D56230040878F /* VegetableRecognition.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CC980DC2A297FE300C83DD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB72C62A01FAD30050BBD6 /* Color.swift */,
+				8CC980DD2A297FF400C83DD2 /* Text.swift */,
+				8CC980E12A2A89CE00C83DD2 /* TextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CC981332A2AAB1D00C83DD2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8CC981312A2AAB1900C83DD2 /* NetworkManager.swift */,
+				8CC981362A2AAEEA00C83DD2 /* NetworkAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CBB72952A01F2890050BBD6 /* Veggy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CBB72A42A01F2890050BBD6 /* Build configuration list for PBXNativeTarget "Veggy" */;
+			buildPhases = (
+				8CBB72922A01F2890050BBD6 /* Sources */,
+				8CBB72932A01F2890050BBD6 /* Frameworks */,
+				8CBB72942A01F2890050BBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veggy;
+			packageProductDependencies = (
+				8C35B3E32A088DD900641099 /* Alamofire */,
+				8CFD58962A08C0AB00B3E556 /* SwiftyJSON */,
+			);
+			productName = Veggy;
+			productReference = 8CBB72962A01F2890050BBD6 /* Veggy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CBB728E2A01F2880050BBD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8CBB72952A01F2890050BBD6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8CBB72912A01F2880050BBD6 /* Build configuration list for PBXProject "Veggy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CBB728D2A01F2880050BBD6;
+			packageReferences = (
+				8C35B3E22A088DD900641099 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8CFD58952A08C0AB00B3E556 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 8CBB72972A01F2890050BBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CBB72952A01F2890050BBD6 /* Veggy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CBB72942A01F2890050BBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA0DDA32A22BC0B008B67E7 /* Lato-ExtraBold.ttf in Resources */,
+				8CBB72C02A01F9740050BBD6 /* Montserrat-ExtraBold.ttf in Resources */,
+				8CBB72A12A01F2890050BBD6 /* Preview Assets.xcassets in Resources */,
+				8CBB72C22A01F9740050BBD6 /* Montserrat-Regular.ttf in Resources */,
+				8CBB72C32A01F9740050BBD6 /* Lato-Regular.ttf in Resources */,
+				8CBB72BE2A01F9740050BBD6 /* Montserrat-Medium.ttf in Resources */,
+				8CBB72CB2A0268220050BBD6 /* Lato-Medium.ttf in Resources */,
+				8CBB729E2A01F2890050BBD6 /* Assets.xcassets in Resources */,
+				8CA0DDAE2A22CD41008B67E7 /* Lato-Semibold.ttf in Resources */,
+				8CBB72C42A01F9740050BBD6 /* Montserrat-SemiBold.ttf in Resources */,
+				8CBB72C12A01F9740050BBD6 /* Lato-Black.ttf in Resources */,
+				8CBB72BF2A01F9740050BBD6 /* Lato-Bold.ttf in Resources */,
+				8C4EF06D2A20A9BE0061CB4E /* UserInfo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CBB72922A01F2890050BBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC981352A2AACC300C83DD2 /* AgeRecommendations.swift in Sources */,
+				8CBB729C2A01F2890050BBD6 /* ContentView.swift in Sources */,
+				8C4EF0682A20A0960061CB4E /* NameAgeTextFields.swift in Sources */,
+				8CBB72A82A01F2A40050BBD6 /* VeggyPage.swift in Sources */,
+				8CC980E02A29CECD00C83DD2 /* StartStopMealButton.swift in Sources */,
+				8C761B0A2A04A028001B05E9 /* ProfilePage.swift in Sources */,
+				8C4EF0642A209F150061CB4E /* WelcomePage.swift in Sources */,
+				8CBB72AD2A01F6BD0050BBD6 /* ChoosingHeaderView.swift in Sources */,
+				8CA0DDA72A22BF94008B67E7 /* RewardWidget.swift in Sources */,
+				8C761B102A062000001B05E9 /* VegChoosingGridView.swift in Sources */,
+				8C4EF0712A20ABCE0061CB4E /* ContentViewIntentHandler.swift in Sources */,
+				8CBB72B12A01F7C10050BBD6 /* VegChoosingGridItemView.swift in Sources */,
+				8CBB72B32A01F7E20050BBD6 /* VegChoosingView.swift in Sources */,
+				8CBB72C72A01FAD30050BBD6 /* Color.swift in Sources */,
+				8CC981392A2AC37E00C83DD2 /* VeggyPageViewModel.swift in Sources */,
+				8CBB729A2A01F2890050BBD6 /* VeggyApp.swift in Sources */,
+				8C4EF0622A209D680061CB4E /* VegTable.swift in Sources */,
+				8CC981322A2AAB1900C83DD2 /* NetworkManager.swift in Sources */,
+				8CBB72AA2A01F2BD0050BBD6 /* HomePage.swift in Sources */,
+				8CBB72C92A023C7B0050BBD6 /* VeggyVegetable.swift in Sources */,
+				8C6557512A2C1D520040878F /* VeggyWeight.swift in Sources */,
+				8C65578F2A2D56230040878F /* VegetableRecognition.swift in Sources */,
+				8CC980DE2A297FF400C83DD2 /* Text.swift in Sources */,
+				8C4EF0752A20B5CD0061CB4E /* WelcomePageManager.swift in Sources */,
+				8CC980E22A2A89CE00C83DD2 /* TextField.swift in Sources */,
+				8C761B082A048B2E001B05E9 /* VegProcessListItemView.swift in Sources */,
+				8CA0DDA52A22BECA008B67E7 /* RedeemRewardsView.swift in Sources */,
+				8CA0DDA12A22BAB9008B67E7 /* VeggyMilestoneHeader.swift in Sources */,
+				8C761B042A048830001B05E9 /* ProcessingHeaderView.swift in Sources */,
+				8C561F262A2200CC002A6A34 /* VeggyTabBar.swift in Sources */,
+				8CA0DDA92A22C906008B67E7 /* RewardWidgetsList.swift in Sources */,
+				8C761B122A0621A1001B05E9 /* VegProcessListView.swift in Sources */,
+				8C65574F2A2C19440040878F /* Session.swift in Sources */,
+				8C761B162A064046001B05E9 /* VeggyResultPage.swift in Sources */,
+				8C561F1F2A217C72002A6A34 /* RecommendationManager.swift in Sources */,
+				8CC9813F2A2B264E00C83DD2 /* Config.swift in Sources */,
+				8CC981372A2AAEEA00C83DD2 /* NetworkAPI.swift in Sources */,
+				8C4EF06F2A20AA0D0061CB4E /* FileHandler.swift in Sources */,
+				8CA0DDAC2A22CC34008B67E7 /* ExtraPointWidget.swift in Sources */,
+				8C761B0D2A04A2D0001B05E9 /* VeggySessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CBB72A22A01F2890050BBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CBB72A32A01F2890050BBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CBB72A52A01F2890050BBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veggy/Preview Content\"";
+				DEVELOPMENT_TEAM = C769U5XA22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Veggy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yingke.techin515.Veggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CBB72A62A01F2890050BBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veggy/Preview Content\"";
+				DEVELOPMENT_TEAM = C769U5XA22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Veggy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yingke.techin515.Veggy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CBB72912A01F2880050BBD6 /* Build configuration list for PBXProject "Veggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBB72A22A01F2890050BBD6 /* Debug */,
+				8CBB72A32A01F2890050BBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CBB72A42A01F2890050BBD6 /* Build configuration list for PBXNativeTarget "Veggy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CBB72A52A01F2890050BBD6 /* Debug */,
+				8CBB72A62A01F2890050BBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C35B3E22A088DD900641099 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8CFD58952A08C0AB00B3E556 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C35B3E32A088DD900641099 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C35B3E22A088DD900641099 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8CFD58962A08C0AB00B3E556 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CFD58952A08C0AB00B3E556 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CBB728E2A01F2880050BBD6 /* Project object */;
+}

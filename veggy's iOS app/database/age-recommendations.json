@@ -1,0 +1,38 @@
+{
+    "id": "veggy-v2",
+    "data": [
+        {
+            "ages": [
+                5,
+                6
+            ],
+            "food": {
+                "broccoli": 30,
+                "cauliflower": 35,
+                "carrot": 50
+            }
+        },
+        {
+            "ages": [
+                7,
+                8
+            ],
+            "food": {
+                "broccoli": 45,
+                "cauliflower": 50,
+                "carrot": 75
+            }
+        },
+        {
+            "ages": [
+                9,
+                10
+            ],
+            "food": {
+                "broccoli": 75,
+                "cauliflower": 85,
+                "carrot": 125
+            }
+        }
+    ]
+}
