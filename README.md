@@ -16,7 +16,7 @@ The hardware part of veggy includes:
 
 The hardware components are enclosed in a 3D-printed prototype of a spinning rabbit on top of the food tray. The load cell measures the weight of the vegetables before and after eating, the camera takes pictures of the food residuals, the servo motor rotates the rabbit according to the task completion, and the push button starts and stops the eating task. The Raspberry Pi code is written in Python. 
 
-The code can be found in the "veggy's main program running on Raspberry Pi" folder. 
+The code can be found in the "[**veggy's main program running on Raspberry Pi**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20main%20program%20running%20on%20Raspberry%20Pi/veggy)" folder. 
 
 ## Software 
 
@@ -28,11 +28,11 @@ The software part of veggy includes:
 - A vegetable recommendation system that is based on children's intake. 
 - A reward system that allows children to earn points for eating vegetables and redeem rewards. 
 
-The mobile application is developed using XCode. It has features such as profile creation, vegetable selection, data visualization, reward redemption, etc. The app code can be found in the "veggy's iOS app" folder. 
+The mobile application is developed using XCode. It has features such as profile creation, vegetable selection, data visualization, reward redemption, etc. The app code can be found in the "[**veggy's iOS app**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20iOS%20app)" folder. 
 
 <kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/fe5ccba2-bcd2-4eda-b80e-34cfa81d81ab.png" height="500px"/></kbd>
 
-Another part of the software is a Python script that uses FastAPI and Roboflow libraries to create a web service that analyzes images of food residuals and detects the vegetable children left in the bowl. The code can be found in the "veggy's APIs that connect to the ML model for vegetable recognition in the cloud service" folder. 
+Another part of the software is a Python script that uses FastAPI and Roboflow libraries to create a web service that analyzes images of food residuals and detects the vegetable children left in the bowl. The code can be found in the "[**veggy's APIs that connect to the ML model for vegetable recognition in the cloud service**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20APIs%20that%20connect%20to%20the%20ML%20model%20for%20vegetable%20recognition%20in%20the%20cloud%20service)" folder. 
 
 The web service has two endpoints: `@app.get("/")` and `@app.get("/analyze/v2/{session_uuid}")`.
 
@@ -41,3 +41,12 @@ The `@app.get("/")` endpoint is a simple hello world message that returns a JSON
 The `@app.get("/analyze/v2/{session_uuid}")` endpoint is the main functionality of the web service. It takes a session UUID as a parameter and uses it to retrieve an image from Azure Blob Storage. It then uses Roboflow to load a pre-trained model for vegetable recognition and predict the vegetables in the uploaded photo. It returns a JSON object with the prediction results.
 
 The web service connects to the ML model hosted on RunPod GPU Cloud, a platform for deploying and running deep learning models. The Roboflow library provides an easy way to access the model and make predictions using its API.
+
+## Video Demo
+
+You can watch a video demo of veggy here:
+
+- Hardware:
+
+- Software: 
+
