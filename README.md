@@ -2,7 +2,7 @@
 
 veggy is a project that turns eating vegetables into a fun and rewarding adventure for children. It combines a mobile app and an interactive food tray that measures the weight of vegetables, rewards children with music and toys, and suggests personalized recommendations based on children’s intake and leftovers. veggy leverages the power of IoT, cloud computing, and machine learning (leftover vegetable recognition) to create a fun and engaging eating experience that motivates children to eat more vegetables.
 
-<kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/a6e42880-8750-4a06-a369-956254653c12.png" height="500px"/></kbd> 
+<kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/a6e42880-8750-4a06-a369-956254653c12.png"/></kbd> 
 
 ## Hardware 
 
@@ -12,7 +12,7 @@ The hardware part of veggy includes:
 - A Raspberry Pi that connects to the food tray and sends data to the cloud. 
 - A Bluetooth speaker that plays music and sound effects during and after eating. 
 
-<kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/ddf5aad0-7dae-467d-88df-d8f60abf2e16.png" height="500px"/></kbd> 
+<kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/ddf5aad0-7dae-467d-88df-d8f60abf2e16.png"/></kbd> 
 
 The hardware components are enclosed in a 3D-printed prototype of a spinning rabbit on top of the food tray. The load cell measures the weight of the vegetables before and after eating, the camera takes pictures of the food residuals, the servo motor rotates the rabbit according to the task completion, and the push button starts and stops the eating task. The Raspberry Pi code is written in Python. 
 
@@ -30,7 +30,7 @@ The software part of veggy includes:
 
 The mobile application is developed using XCode. It has features such as profile creation, vegetable selection, data visualization, reward redemption, etc. The app code can be found in the "[**veggy's iOS app**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20iOS%20app)" folder. 
 
-<kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/fe5ccba2-bcd2-4eda-b80e-34cfa81d81ab.png" height="500px"/></kbd>
+<kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/fe5ccba2-bcd2-4eda-b80e-34cfa81d81ab.png"/></kbd>
 
 Another part of the software is a Python script that uses FastAPI and Roboflow libraries to create a web service that analyzes images of food residuals and detects the vegetable children left in the bowl. The code can be found in the "[**veggy's APIs that connect to the ML model for vegetable recognition in the cloud service**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20APIs%20that%20connect%20to%20the%20ML%20model%20for%20vegetable%20recognition%20in%20the%20cloud%20service)" folder. 
 
