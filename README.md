@@ -14,9 +14,9 @@ The hardware part of veggy includes:
 
 <kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/ddf5aad0-7dae-467d-88df-d8f60abf2e16.png"/></kbd> 
 
-The hardware components are enclosed in a 3D-printed prototype of a spinning rabbit on top of the food tray. The load cell measures the weight of the vegetables before and after eating, the camera takes pictures of the food residuals, the servo motor rotates the rabbit according to the task completion, and the push button starts and stops the eating task. The Raspberry Pi code is written in Python. 
+The hardware components are enclosed in a 3D-printed prototype of a spinning rabbit on top of the food tray. The load cell measures the weight of the vegetables before and after eating, the camera takes pictures of the food residuals, the servo motor rotates the rabbit according to the task completion, and the push button starts and stops the eating task. 
 
-The code can be found in the "[**veggy's main program running on Raspberry Pi**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20main%20program%20running%20on%20Raspberry%20Pi/veggy)" folder. 
+The Raspberry Pi code is written in Python. The code can be found in the "[**veggy's main program running on Raspberry Pi**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20main%20program%20running%20on%20Raspberry%20Pi/veggy)" folder. 
 
 ## Software 
 
@@ -28,7 +28,9 @@ The software part of veggy includes:
 - A vegetable recommendation system that is based on children's intake. 
 - A reward system that allows children to earn points for eating vegetables and redeem rewards. 
 
-The mobile application is developed using XCode. It has features such as profile creation, vegetable selection, data visualization, reward redemption, etc. The app code can be found in the "[**veggy's iOS app**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20iOS%20app)" folder. 
+The mobile application is developed using XCode. It has features such as profile creation, vegetable selection, data visualization, reward redemption, etc. 
+
+The app code is written in Swift and can be found in the "[**veggy's iOS app**](https://github.com/open-minded13/2023_veggy/tree/main/veggy's%20iOS%20app)" folder. 
 
 <kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/fe5ccba2-bcd2-4eda-b80e-34cfa81d81ab.png"/></kbd>
 
