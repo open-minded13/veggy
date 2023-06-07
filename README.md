@@ -42,11 +42,32 @@ The `@app.get("/analyze/v2/{session_uuid}")` endpoint is the main functionality 
 
 The web service connects to the ML model hosted on RunPod GPU Cloud, a platform for deploying and running deep learning models. The Roboflow library provides an easy way to access the model and make predictions using its API.
 
-## Video Demo
+## Video Demos
 
 You can watch a video demo of veggy here:
 
-- Hardware:
+- **Hardware Demo Video:** In the video, a yard is substituted for vegetables, showing how the device reacts when a child successfully eats the vegetable in the bowl.
 
-- Software: 
+  [![hardware demo video](https://github.com/open-minded13/2023_veggy/assets/52095472/46dfc0b0-67f4-4ada-b462-65a2efd23ad5)](https://drive.google.com/file/d/1RSlcn4H1R8PCYDWtMCHXxhNOMtjj_m8e/preview "hardware demo video.mp4")
 
+- **Software Demo Video:** The video shows that when a child leaves leftovers (that is, the challenge fails), the mobile app will pop up a prompt box and display the type and weight of the remaining vegetables.
+
+  [![software demo video](https://github.com/open-minded13/2023_veggy/assets/52095472/05ec26cf-b3ca-4bb1-9d73-20f29b178d5a)](https://drive.google.com/file/d/1pLkUiI7FWuXPBnKOSgjVUg4e6fhkSjCZ/preview "software demo video.mp4")
+  
+## Reflection
+
+This project was a valuable learning experience for us. We applied our skills from classroom sessions, such as sending data to Azure, fetching data from the app, implementing design thinking concepts, etc. We also encountered some difficulties, such as sensor instability, Bluetooth connection, prototype design, etc. We solved them by troubleshooting and testing our solutions.
+
+If we had another chance to improve our project, we would focus more on the user experience from the start. We realized we gave too much attention to the technical aspects, resulting in a solution more appealing to parents' supervision than children's dining experience. We should have added more fun and interactive elements for children in the future.
+
+## Team Members & Acknowledgments
+
+While we assist each other in the product development cycle, for each part of the project, there are key contributors:
+
+- [**Mia Wang**](https://www.linkedin.com/in/yunqi-mia-wang-916912173/) and [**I (Chia-Wei Chang)**](https://www.linkedin.com/in/chiaweic1/): Key contributors for product iterations, sensors & circuit configurations, Azure cloud service setup, and Python programming on the Raspberry Pi.
+- [**Eureka Du**](https://www.linkedin.com/in/yingke-derrick-ding/): As the interface designer of iOS software and the mechanism of the reward system.
+- [**Derrick Ding**](https://www.linkedin.com/in/yingke-derrick-ding/): As a key contributor to the iOS software and cloud configuration of ML modules.
+
+## Appendix
+
+- [**Pitch Deck**](https://docs.google.com/presentation/d/1FgAJaAH5Dx1LO6J0nQpGfOZaeG5Etb_jXpKR93Td52I/edit?usp=sharing): You can also view the presentation pitch deck to understand more about our product. 
