@@ -36,9 +36,8 @@ Another part of the software is a Python script that uses FastAPI and Roboflow l
 
 The web service has two endpoints: `@app.get("/")` and `@app.get("/analyze/v2/{session_uuid}")`.
 
-The `@app.get("/")` endpoint is a simple hello world message that returns a JSON object with a message key and a value of "Hello World."
-
-The `@app.get("/analyze/v2/{session_uuid}")` endpoint is the main functionality of the web service. It takes a session UUID as a parameter and uses it to retrieve an image from Azure Blob Storage. It then uses Roboflow to load a pre-trained model for vegetable recognition and predict the vegetables in the uploaded photo. It returns a JSON object with the prediction results.
+- The `@app.get("/")` endpoint is a simple hello world message that returns a JSON object with a message key and a value of "Hello World."
+- The `@app.get("/analyze/v2/{session_uuid}")` endpoint is the main functionality of the web service. It takes a session UUID as a parameter and uses it to retrieve an image from Azure Blob Storage. It then uses Roboflow to load a pre-trained model for vegetable recognition and predict the vegetables in the uploaded photo. It returns a JSON object with the prediction results.
 
 The web service connects to the ML model hosted on RunPod GPU Cloud, a platform for deploying and running deep learning models. The Roboflow library provides an easy way to access the model and make predictions using its API.
 
