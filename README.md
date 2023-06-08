@@ -66,7 +66,7 @@ If we had another chance to improve our project, we would focus more on the user
 While we assist each other in the product development cycle, for each part of the project, there are key contributors:
 
 - [**Mia Wang**](https://www.linkedin.com/in/yunqi-mia-wang-916912173/) and [**I (Chia-Wei Chang)**](https://www.linkedin.com/in/chiaweic1/): Key contributors for product iterations, sensors & circuit configurations, Azure cloud service setup, and Python programming on the Raspberry Pi.
-- [**Eureka Du**](https://www.linkedin.com/in/yingke-derrick-ding/): As the interface designer of iOS software and the mechanism of the reward system.
+- [**Eureka Du**](https://www.linkedin.com/in/yanfeidu/): As the interface designer of iOS software and the mechanism of the reward system.
 - [**Derrick Ding**](https://www.linkedin.com/in/yingke-derrick-ding/): As a key contributor to the iOS software and cloud configuration of ML modules.
 
 ## Appendix
