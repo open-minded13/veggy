@@ -1,4 +1,4 @@
-# veggy — A Smart and Fun Solution to Encourage Children to Eat Vegetables | iOS App Dev, Python, Azure Blob Storage, Photo Recognition, OpenCV, Threads 
+# veggy — A Smart and Fun Solution to Encourage Children to Eat Vegetables | Python, Azure Blob Storage, Photo Recognition, OpenCV, iOS App Dev
 
 "veggy" is a project that turns eating vegetables into a fun and rewarding adventure for children. It combines a mobile app and an interactive food tray that measures the weight of vegetables, rewards children with music and toys, and suggests personalized recommendations based on children’s intake and leftovers. veggy leverages the power of IoT, cloud computing, and machine learning (leftover vegetable recognition) to create a fun and engaging eating experience that motivates children to eat more vegetables.
 
