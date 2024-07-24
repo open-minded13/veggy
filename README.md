@@ -6,7 +6,7 @@
 ## Project Timeline
 
 - **Start Date**: Mar 27, 2023
-- **Completion Date**: Jun 09, 2023
+- **Completion Date**: Jun 09, 2023 ⛳️
 
 ## Hardware 
 
