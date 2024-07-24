@@ -3,6 +3,11 @@
 
 <kbd><img src="https://github.com/open-minded13/2023_veggy/assets/52095472/a6e42880-8750-4a06-a369-956254653c12.png"/></kbd> 
 
+## Project Timeline
+
+- **Start Date**: Mar 27, 2023
+- **Completion Date**: Jun 09, 2023
+
 ## Hardware 
 
 The hardware part of veggy includes: 
